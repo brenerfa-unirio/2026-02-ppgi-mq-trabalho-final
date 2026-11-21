@@ -129,13 +129,10 @@ processar_rodada <- function(r, base_dir) {
     nome_instancia <- str_remove(basename(arq), "\\.csv")
   
     # ==============================================================================
-    # A função read_delim() lê arquivos de texto delimitados (como .csv, .tsv ou .txt) 
-    # e carrega os dados diretamente para a memória no formato de um tibble.
-    # 
-    # O parâmetro delim = ";" instrui a função read_delim() a reconhecer o 
+    # A função read_csv2() lê arquivos de texto delimitados .csv, reconhecendo o 
     # ponto e vírgula (;) como o caractere delimitador que separa cada coluna do arquivo.
     # ==============================================================================
-    dados <- read_delim(arq,delim = ";")
+    dados <- read_csv2(arq)
 
     # ==============================================================================
     # É criado um tibble de 1 linha 3 3 colunas que resume o desempenho máximo alcançado 
