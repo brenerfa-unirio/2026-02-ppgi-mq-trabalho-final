@@ -15,8 +15,6 @@
 #   Item d -> PASSO 5 (colunas CR, RD, SN, SR)
 #   PASSO 6 junta tudo na Tabela 11 e salva em saida/tabela11.csv
 #
-# Como usar: abra no RStudio e clique em "Source" (Ctrl+Shift+S), ou rode
-# linha a linha com Ctrl+Enter. Tudo que começa com # é comentário.
 ###############################################################################
 
 # =====================================================================

@@ -14,8 +14,6 @@
 #   Ganho de fitness provocado por cada operador (média) -> PASSOS 3 e 4
 #   Montagem e gravação -> PASSOS 5 e 6; salva em saida/tabela13.csv
 #
-# Como usar: abra no RStudio e clique em "Source" (Ctrl+Shift+S), ou rode
-# linha a linha com Ctrl+Enter. Tudo que começa com # é comentário.
 ###############################################################################
 
 # =====================================================================
